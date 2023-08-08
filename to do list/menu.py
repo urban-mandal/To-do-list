@@ -20,9 +20,9 @@ please enter the number of a thing you want to do than press enter""")
         if a == 1:# add tasks func is called
             addtasks.addtasks()
         elif a == 2:# remove tasks func is called
-            pass
+            removetask.removingtasks()
         elif a == 3:# view tasks is called
-            pass
+            viewtasks.viewtasks()
         elif a == 4:# check completed tasks from file completed tasks
             pass
         elif a == 5:# quits the to do list
