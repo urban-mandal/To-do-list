@@ -20,6 +20,6 @@ def view_completed_tasks():
         i = i.strip()
         print(f"{i},")
     time.sleep(2)
-    print("youll now see the menu")
-    time.sleep(1)
+    print("thats it now the menu")
+    time.sleep(1.2)
     

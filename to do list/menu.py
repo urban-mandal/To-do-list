@@ -8,7 +8,7 @@ def displaymenu():
     #the menu will repeat it self untile the user quits
     while True:
         print("""1: add a task    2: remove a task, 3: view tasks
-4:mark a task as completed 5: to view completed tasks 6:quit to-do-list
+4:mark a task as completed 5: to view completed tasks  6:quit to-do-list
 please enter the number of a thing you want to do than press enter""")
         #gets the input and based on the input performs the task
         while True:

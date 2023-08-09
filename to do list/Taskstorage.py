@@ -1,8 +1,12 @@
+import datetime
 #code that stores all tasks inputed in to a file
 
 def taskstorage(a):
+    todays_date = str(datetime.date.today())
+    #we get todays date so that the we can append it to the task
+    #thats being add so the user knows when he added the task
     storage = open("storage", "a")
-    a = a + "\n" #we add \n to tell the program that thats the end of the line
+    a = a + ":\t" + todays_date + "\n" #we add \n to tell the program that thats the end of the line
     storage.write(a)
     storage.close()
 
