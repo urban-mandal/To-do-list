@@ -15,7 +15,7 @@ def removetask(b):#we use b so that everything is more clear
         lines.remove(b)
     print(lines, b)
 
-    filefixed = open("storage", "w")
+    filefixed = open("storage", "w")#w since it overwrites anything that hase existed in the file
     filefixed.writelines(lines)
     filefixed.close()
 
